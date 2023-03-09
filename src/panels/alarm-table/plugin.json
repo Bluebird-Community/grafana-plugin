@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+
+  "type": "panel",
+  "name": "Alarm Table",
+  "id": "opennms-helmalarmtable-panel",
+
+  "info": {
+    "description": "OpenNMS Alarm Table Panel React",
+    "logos": {
+      "small": "img/alarm-table.svg",
+      "large": "img/alarm-table.svg"
+    },
+    "keywords": [
+      "panel"
+    ],
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  }
+
+}

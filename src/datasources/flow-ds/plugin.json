@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "name": "OpenNMS Flows",
+  "id": "opennms-helmflow-datasource",
+  "type": "datasource",
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "OpenNMS Flow Datasource",
+    "logos": {
+      "small": "img/flow-ds.svg",
+      "large": "img/flow-ds.svg"
+    },
+    "keywords": ["datasource"],
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  }
+}

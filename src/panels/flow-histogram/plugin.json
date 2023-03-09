@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+    "type": "panel",
+    "name": "Flow Histogram",
+    "id": "opennms-helmflowhistogram-panel",
+    "info": {
+        "description": "OpenNMS Flow Histogram Panel React",
+        "logos": {
+            "small": "img/flow-histogram.svg",
+            "large": "img/flow-histogram.svg"
+        },
+        "keywords": [
+            "panel"
+        ],
+        "links": [],
+        "screenshots": [],
+        "version": "%VERSION%",
+        "updated": "%TODAY%"
+    }
+}

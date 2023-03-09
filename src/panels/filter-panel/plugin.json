@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Filter Panel",
+  "id": "opennms-helmfilter-panel",
+
+  "info": {
+    "description": "OpenNMS Filter Panel React",
+    "logos": {
+      "small": "img/filter.svg",
+      "large": "img/filter.svg"
+    },
+    "keywords": [
+      "panel"
+    ],
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  }
+}

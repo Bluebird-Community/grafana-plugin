@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Alarm Histogram",
+  "id": "opennms-helmalarmhistogram-panel",
+  "info": {
+    "description": "OpenNMS Alarm Histogram Panel",
+    "logos": {
+      "small": "img/alarm-histogram.svg",
+      "large": "img/alarm-histogram.svg"
+    },
+    "keywords": [
+      "panel"
+    ],
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  }
+}

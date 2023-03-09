@@ -1,10 +1,10 @@
-import *  as helpers from '../../datasources/flow-ds-react/helpers';
+import *  as helpers from '../../datasources/flow-ds/helpers';
 import {
   FlowQueryData,
   FlowParsedQueryData,
   FlowParsedQueryRow,
-} from '../../datasources/flow-ds-react/types';
-import { FlowStrings } from '../../datasources/flow-ds-react/constants';
+} from '../../datasources/flow-ds/types';
+import { FlowStrings } from '../../datasources/flow-ds/constants';
 import { OnmsFlowSeries } from 'opennms/src/model';
 import { dateTimeAsMoment } from "@grafana/data";
 import { SimpleOpenNMSRequest } from 'lib/utils';
@@ -47,7 +47,7 @@ describe("OpenNMS_Flow_Datasource", function () {
       targets: [{
         refId: "A",
         datasource: {
-          "type": "opennms-helm-flow-datasource-react",
+          "type": "opennms-helm-flow-datasource",
           "uid": "KLhKw1DVk"
         },
         segment: 0,

@@ -1,6 +1,6 @@
 import { TemplateSrv } from '@grafana/runtime'
 import { API } from 'opennms'
-import { EntityQuery, EntityQueryRequest, FilterEditorData } from './../types'
+import { EntityQuery, EntityQueryRequest, FilterEditorData } from '../types'
 import { getAttributeMapping } from './attributeMappings'
 import { ALL_SELECTION_VALUE, EntityTypes } from '../../../constants/constants'
 import { getFilterId } from '../EntityHelper'
