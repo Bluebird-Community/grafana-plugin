@@ -57,7 +57,6 @@ export class QueryVariable {
   initialized: boolean;
   inFlight: Promise<any>;
 
-  /** @ngInject */
   constructor(public model, public filterColumn, public filterState, public dashboardSrv, public datasourceSrv, public templateSrv, public timeSrv) {
     this.initialized = false;
     this.inFlight = Promise.resolve();

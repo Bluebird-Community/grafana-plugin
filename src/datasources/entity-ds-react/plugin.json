@@ -1,17 +1,27 @@
 {
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "name": "OpenNMS Entities React",
-  "id": "opennms-helm-entity-datasource-react",
+  "id": "opennms-entity-datasource",
   "type": "datasource",
 
   "metrics": true,
-  "annotations": false,
 
   "info": {
     "description": "OpenNMS Entities Datasource React",
     "logos": {
       "small": "img/entity-ds.svg",
       "large": "img/entity-ds.svg"
-    }
+    },
+    "keywords": ["datasource"],
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": "^9.0.0",
+    "plugins": []
   }
+
 
 }

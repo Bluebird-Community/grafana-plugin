@@ -21,7 +21,6 @@ export class TextBoxVariable {
     skipUrlSync: false,
   };
 
-  /** @ngInject **/
   constructor(public model, public filterColumn, public filterState, public dashboardSrv, public datasourceSrv, public templateSrv) {
     assignModelProperties(this, model, this.defaults);
   }
