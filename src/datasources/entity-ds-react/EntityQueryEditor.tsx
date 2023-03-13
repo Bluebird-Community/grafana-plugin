@@ -94,10 +94,6 @@ export const EntityQueryEditor: React.FC<EntityQueryEditorProps> = ({ onChange, 
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [filter])
 
-    useEffect(() => {
-        dispatchClauses({ type: ClauseActionType.reset })
-    }, [value])
-
     const updateQuery = () => {
         onChange({
             ...query,
@@ -136,6 +132,7 @@ export const EntityQueryEditor: React.FC<EntityQueryEditorProps> = ({ onChange, 
                 value={value}
                 onChange={(item) => {
                     setValue(item);
+                    dispatchClauses({ type: ClauseActionType.reset })
                 }}
                 allowEmptyValue={false}
                 options={[
