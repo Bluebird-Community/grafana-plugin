@@ -98,6 +98,11 @@ commands:
             npm run build
             npm run sign
             unset NODE_OPTIONS
+  validate-plugin:
+    steps:
+      - run:
+          name: Validate Plugin
+          command: npx -y @grafana/plugin-validator@latest artifacts/opennms-grafana-plugin-*.zip
             
 jobs:
   pre-build:
@@ -232,6 +237,7 @@ jobs:
           name: Create Plugin ZIP File
           command: |
             ./makezip.js
+      - validate-plugin
       - store_artifacts:
           path: ./artifacts
       - persist_to_workspace:
